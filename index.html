@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Booking System</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <header id="header">
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav id="nav">
+            <a id="welcome_link">Home</a>
+            <a id="about_link">About</a>
+            <a id="services_link">Services</a>
+            <a id="explore_link">Explore</a>
+            <a id="contact_link">Contact</a>
+            <button style="margin-left: 50px;">Book Here</button>
+        </nav>
+
+        <div id="hero_section">
+            <p id="hero_text" style="color: white;">You are in the best place</p>
+            <h1 id="hero_title">Welcome to the Hotel Pearl</h1>
+            <p id="hero_subtitle" style="color:white">Book your rooms from here</p>
+        </div>
+    </header>
+
+    <main class="container" id="main_container">
+        <section id="registration_verification_section">
+            <div id="registration">
+                <img id="registration_img" alt="Registration Icon" src="images/register_3456426.png" style="width: 50px; height: 50px;">
+                <h3 id="registration_title">Registration</h3>
+                <p id="registration_text">registration</p>
+            </div>
+            <div id="verification">
+                <img id="verification_img" alt="Verification Icon" src="images/verification.png" style="width: 50px; height: 50px;">
+                <h3 id="verification_title">Verification</h3>
+                <p id="verification_text">verification</p>
+            </div>
+            <div id="customer">
+                <img id="customer_img" alt="Customer Icon" src="images/user.png" style="width: 50px; height: 50px;">
+                <h3 id="customer_title">Customer</h3>
+                <p id="customer_text">customer</p>
+            </div>
+            <div id="exit_button_div">
+                <button id="exit_button">Exit</button>
+            </div>
+        </section>
+
+        <section id="about_us_section">
+            <div id="about_us_content">
+                <img id="about_us_img" alt="About Us Icon" src="images/hotel_lobby.jpg" style="width: 500px; height: 500px;">
+                <p id="about_us_p">About Us</p>
+                <h2 id="about_us_title">We have the best place for your stay</h2>
+                <p id="about_us_text">The Palme Camayenne Hotel offers you the opportunity to stay without constraints, with high-quality furniture, free internet connections, and also allows you to rent cars throughout your stay.</p>
+                <button id="read_more_button">Read More</button>
+            </div>
+        </section>
+
+        <section id="rooms_section">
+            <div id="rooms_title">
+                <p id="rooms_text">OUR OPERATIONAL ROOMS</p>
+                <h2 id="rooms_header">Live in the best place at Pearl Hotel</h2>
+            </div>
+            <div id="container">
+                <div class="card" id="room1_card">
+                    <img src="images/room.jpg" alt="Room 1" id="room1_img">
+                    <button id="room1_icon1"><img id="icon" alt="Room 1 Icon" src="images/heart.png"></button>
+                    <button id="room1_icon2"><img id="icon" alt="Room 2 Icon" src="images/medal.png"></button>
+                    <button id="room1_icon3"><img id="icon" alt="Room 3 Icon" src="images/paint-brush.png"></button>
+                    <h3 id="room1_title">Room for 2 adults</h3>
+                    <p id="room1_desc">It allows you to live with your spouse.</p>
+                    <p id="room1_price">The price starts at <b><p>at 200GNF/night</p></b></p>
+                    <button id="room1_take_button">Take</button>
+                </div>
+
+                <div class="card" id="room2_card">
+                    <img src="images/room.jpg" alt="Room 2" id="room2_img">
+                    <button id="room1_icon1"><img id="icon" alt="Room 1 Icon" src="images/heart.png"></button>
+                    <button id="room1_icon2"><img id="icon" alt="Room 2 Icon" src="images/medal.png"></button>
+                    <button id="room1_icon3"><img id="icon" alt="Room 3 Icon" src="images/paint-brush.png"></button>
+                    <h3 id="room2_title">Entire apartment</h3>
+                    <p id="room2_desc">Live in an entire apartment with everything inside.</p>
+                    <p id="room2_price">The price starts <b><p>at 500GNF/night</p></b></p>
+                    <button id="room2_take_button">Take</button>
+                </div>
+
+                <div class="card" id="room3_card">
+                    <img src="images/room.jpg" alt="Room 3" id="room3_img">
+                    <button id="room1_icon1"><img id="icon" alt="Room 1 Icon" src="images/heart.png"></button>
+                    <button id="room1_icon2"><img id="icon" alt="Room 2 Icon" src="images/medal.png"></button>
+                    <button id="room1_icon3"><img id="icon" alt="Room 3 Icon" src="images/paint-brush.png"></button>
+                    <h3 id="room3_title">Sea view</h3>
+                    <p id="room3_desc">The room gives you the comfort of seeing the sea.</p>
+                    <p id="room3_price">The price starts<b><p>at 150GNF/night</p></b></p>
+                    <button id="room3_take_button">Take</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services_section">
+            <img id="services_hero_image" alt="Services Hero Image" src="images/room.jpg">
+            <p id="services_text">Services</p>
+            <p id="services_subtitle">Live the best.</p>
+            <div id="security_div">
+                <img id="security_icon" alt="Security Icon" src="images/badge.png">
+                <p id="security_text">Security is well assured</p>
+            </div>
+
+            <div id="open_24_div">
+                <img id="open_24_icon" alt="24 Hours Open Icon" src="images/24_7.jpg">
+                <p id="open_24_text">We are open 24 hours a day</p>
+            </div>
+
+            <div id="conference_room_div">
+                <img id="conference_room_icon" alt="Conference Room Icon" src="images/music.png">
+                <p id="conference_room_text">Conference room</p>
+            </div>
+
+            <div id="tourist_assistant_div">
+                <img id="tourist_assistant_icon" alt="Tourist Assistant Icon" src="images/bookmark.jpg">
+                <p id="tourist_assistant_text">Our tourist assistant</p>
+            </div>
+        </section>
+
+        <section id="stats_section">
+            <div id="rooms_available_div">
+                <p><b>25+</b></p>
+                <p>Rooms Available</p>
+            </div>
+
+            <div id="rooms_available2_div">
+                <p><b>25+</b></p>
+                <p>Rooms Available</p>
+            </div>
+
+            <div id="already_booked_div">
+                <p><b>350+</b></p>
+                <p>Already Booked</p>
+            </div>
+
+            <div id="happy_customers_div">
+                <p><b>600+</b></p>
+                <p>Happy Customers</p>
+            </div>
+        </section>
+
+        <section id="explore_section">
+            <p id="explore_text">Explore</p>
+            <h1 id="explore_title">The good news today.</h1>
+        </section>
+
+        <section id="news_section">
+            <div id="news_card">
+                <img id="news_image" alt="News Image" id="hero_image" src="images/pexels-dantemunozphoto-17488420.jpg">
+                <div id="news_container">
+                    <div id="news_content">
+                        <p id="news_date">April 23, 2025</p>
+                        <h4 id="news_title">A new menu is available at Pearl Hotel</h4>
+                        <button id="news_continue_button">continue</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div id="column1">
+                <img id="logo" alt="Hotel Logo" src="images/hotel_logo.jpg" style="width: 50px; height:50px"> 
+                <p id="footer_text">Discover the best way to stay at Chez Palme Camayenne with unforgettable comfort and high-quality services.</p>
+                <button id="book_now_button">Book Now</button>
+            </div>
+    
+            <div id="column2">
+                <h1 id="contact_us_title">Contact Us</h1>
+                <h2 id="contact_email">palmcamayenne@info.com</h2>
+                <div id="social_icons">
+                    <img alt="facebook_icon" id="facebook_icon" src="images/facebook.png">
+                    <img alt="instagram_icon" id="instagram_icon" src="images/Instagram_icon.png">
+                    <img alt="google_icon" id="google_icon" src="images/twitter.jpg">
+                </div>
+            </div>
+    
+            <div id="column3">
+                <h1>About</h1>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+    
+            <div id="column4">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+    
+            <div id="column5">
+                <h1>Location</h1>
+                <p>123 Hotel Street, City Name, Country</p>
+                <p><b>Phone:</b> +601112476299</p>
+                <p><b>Email:</b> palmcamayenne@info.com</p>
+            </div>
+        </div>
+    
+        <p id="footer_copy" style="text-align:center">Copyright Chit Ko Ko 2025</p>
+
+    </footer>
+
+    <script src="script.js"></script>  
+</body>
+
+</html>
